@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.digit.hibernate.aadhar.AadharDetails" table="aadhar">
+		<id name="Id" column="Id"></id>
+		<property name="DOB">
+			<column name="DOB" />
+			</property>
+			<property name="Address">
+			<column name="Address" />
+		</property>
+		<property name="Pin">
+			<column name="Pin" />
+		</property>
+		<property name="Name">
+			<column name="Name" />
+		</property>
+	</class>
+</hibernate-mapping>
